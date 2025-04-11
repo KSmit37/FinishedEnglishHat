@@ -14,7 +14,7 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #6abd1f;
+    background-image: linear-gradient(to right, #7cc51b, green);
     font-family: Arial, sans-serif;
 }
 
@@ -30,15 +30,14 @@ body {
     border: none;
     cursor: pointer;
 }
-
-#homefull {
-    height: calc(100vh - 100px);
+#veryfull {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: 100%;
     gap: 20px;
 }
-
 #textbox, #corrections {
     overflow-y: auto;
     width: 500px;
@@ -48,6 +47,9 @@ body {
     padding: 10px;
     font-size: 16px;
     line-height: 1.5;
+    border-radius: 15px;
+    border-width: thick;
+    border-color: green;
 }
 
 #start {
