@@ -6,8 +6,13 @@
     border-radius: 3px;
 }
 #up {
-    background-color: black;
-    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 body {
     height: 100vh;
@@ -19,14 +24,13 @@ body {
 }
 
 #homebutton {
-    left: 20px;
-    height: 70px;
-    width: 130px;
+    height: 60px;
+    width: 120px;
     background-color: transparent;
     background-image: url("homebutton.png");
     background-position: center;
-    background-size: cover;
-    border-radius: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
     border: none;
     cursor: pointer;
 }
